@@ -34,6 +34,10 @@ app.patch('/money', (req, res) => {
     res.send('Mr Ojukotimi is Billionaire!');
 });
 
+app.patch('/money', (req, res) => {
+    res.send('Mr Ojukotimi is Billionaire!');
+});
+
 // Set the server to listen on port 3000
 const PORT = 3000;
 app.listen(PORT, () => {
